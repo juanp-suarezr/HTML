@@ -1,0 +1,35 @@
+
+
+table {
+    table-layout: fixed;
+    width: 500px;
+    border: 1.5px solid black;
+    caption-side: bottom;
+}
+
+thead {
+    border-collapse: separate;
+    background-color: darkgoldenrod;
+}
+
+tbody {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody tr:nth-child(2n-1) {
+    background-color:royalblue;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: aquamarine;
+}
+
+tfoot {
+    border-collapse: separate;
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+
+

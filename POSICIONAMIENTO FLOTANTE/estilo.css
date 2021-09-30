@@ -1,0 +1,15 @@
+section {background-color: gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+article {
+    background-color: lime;
+    width: 300px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#a2 {float:right;}
+#a3 {clear: both;}

@@ -1,0 +1,22 @@
+
+#bod {
+    background-color: rgb(225, 238, 48);
+}
+
+#titulo {
+    color: crimson;
+    text-align: center;
+}
+
+#tx {
+    color:midnightblue;
+    font-family: serif;
+    font-style: inherit;
+}
+
+#bot {
+    background-color: bisque;
+    font-family: serif;
+    font-style: italic;
+    color:lightslategray;
+}

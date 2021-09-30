@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title> gestor de tareas </title>
+    </head>
+    <body>
+        <h1> GESTOR DE TAREAS </h1>
+        <section>
+        <table>
+            <thead>
+                <th Id: "t_Id" ></th>
+                <th Id: "t_name"></th> 
+                <th Id: "t_todo"></th> 
+                <th Id: "t_prog"></th> 
+                <th Id: "t_done" ></th>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td class="name"> lavar la ropa </td>
+                    <td class="state">X</td>
+                    <td class="state"></td>
+                    <td class="state"></td>
+
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td class="name"> ir al gym </td>
+                    <td class="state"></td>
+                    <td class="state">X</td>
+                    <td class="state"></td>
+
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td class="name"> sacar al perro </td>
+                    <td class="state"></td>
+                    <td class="state"></td>
+                    <td class="state">X</td>
+
+                </tr>
+                <tr></tr>
+                <tr></tr>
+           
+            </tbody>
+        </table>    
+
+        </section>
+        <form>
+            <h2> DATOS TAREA</h2>
+            <div id="name">
+            <label for="task_name">TAREA</label>
+            <input type="text" id="task_name" name="task_name"> 
+        </div>
+        <label>ESTADO</label>
+        <div id="state">
+            
+            <input type="checkbox" id="task_todo" name="task_state" value="todo"> 
+            <label for="task_todo">Pendiente</label>
+
+            <input type="checkbox" id="task_prog" name="task_state" value="prog"> 
+            <label for="task_prog">En Progreso</label>
+
+            <input type="checkbox" id="task_done" name="task_state" value="done"> 
+            <label for="task_done">Completado</label>
+        </div>
+        <div id="detail">
+            <label for="task_detail">DETALLES</label>
+            <textarea id="task_detail" name="task_detail"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit"> GUARDAR CAMBIOS >></button>
+        </div>
+        </form>
+        
+    </body>
+</html>

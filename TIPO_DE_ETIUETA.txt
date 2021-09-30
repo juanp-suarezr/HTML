@@ -1,0 +1,6 @@
+ETIQUETA DE BLOQUE
+https://developer.mozilla.org/es/docs/Web/HTML/Block-level_elements
+
+ETIQUETA DE LINEA
+https://developer.mozilla.org/es/docs/Web/HTML/Inline_elements
+
